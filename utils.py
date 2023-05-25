@@ -6,16 +6,6 @@ API_SECRET = 'your_api_secret'
 
 
 def create_orders(data):
-    client = Client(API_KEY, API_SECRET)
-
-    volume = data['volume']
-    number = data['number']
-    amount_dif = data['amountDif']
-    side = data['side']
-    price_min = data['priceMin']
-    price_max = data['priceMax']
-
-    orders = []
 
     client = Client(API_KEY, API_SECRET)
 
