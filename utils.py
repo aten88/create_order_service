@@ -1,8 +1,8 @@
 import random
 from binance.client import Client
 
-API_KEY = 'your_api_key'
-API_SECRET = 'your_api_secret'
+API_KEY = 'ZJpGiiRpw0BUWRDm52kFr0vLnAg9PnNHonVjZce7G97hp98IPWdxBYQIBTnEOxeD'
+API_SECRET = 'VzWgKQ2Tyll3buyXkxCSIFFRqAhll21zsjKKKD2U2CSGs5qQepoVAef6B07gvDLn'
 
 
 def create_orders(data):
@@ -46,5 +46,4 @@ def create_orders(data):
             )
 
         orders.append(order)
-
     return orders
