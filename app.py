@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-import json
 
 from utils import create_orders
 
