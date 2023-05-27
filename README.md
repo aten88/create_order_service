@@ -9,7 +9,7 @@ py -3.9 -m venv venv
 source venv/Scripts/activate
 
 Обновить pip
-python -m pip install --upgrade pip
+python.exe -m pip install --upgrade pip
 
 Установить зависимости из файла requirements.txt:
 pip install -r requirements.txt
