@@ -19,3 +19,6 @@ pip install -r requirements.txt
 
 Запустить проект:
 app.run локально или используя серверы приложений, такие как Gunicorn или uWSGI
+
+Запустить тесты:
+python -m unittest tests.py
