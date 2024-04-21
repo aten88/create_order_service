@@ -19,12 +19,12 @@
   ```
 
 - Обновить pip и установить зависимости из файла requirements.txt:
- ```
- python.exe -m pip install --upgrade pip
-```
-```
-pip install -r requirements.txt
-```
+  ```
+  python.exe -m pip install --upgrade pip
+  ```
+  ```
+  pip install -r requirements.txt
+  ```
 
 - Создать конфигурационный файл в головном каталоге проекта с ключами API secrets.cfg
   Поместить в константы: API_KEY и API_SECRET токены
